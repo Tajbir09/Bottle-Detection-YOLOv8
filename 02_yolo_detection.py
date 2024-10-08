@@ -3,8 +3,8 @@ from ultralytics import YOLO
 import cv2
 
 # Load the trained YOLOv8 model
-model = YOLO('/Users/tajbir/Downloads/best.pt') #Define the path to the (best.pt) file. 
-cap = cv2.VideoCapture(0)  # 0 is the default webcam
+model = YOLO('Define.Path/best.pt') #Define the path to the (best.pt) file. 
+cap = cv2.VideoCapture(0)  # 0 is the default webcam or try 01 for external cam
 
 # Check if the webcam is opened correctly
 if not cap.isOpened():
