@@ -18,5 +18,7 @@ Ultralytics YOLOv8
 OpenCV (for webcam access and image handling)
 Torch (for YOLOv8 inference)
 Roboflow (optional for dataset management)
-The 01_yolov8_training.py (https://github.com/Tajbir09/Bottle-Detection-YOLOv8/edit/main/00_README.md#:~:text=01_yolov8_training.py) file includes python code for training YOLOv8 on custom data set.
-The 02_yolo_detection.py (https://github.com/Tajbir09/Bottle-Detection-YOLOv8/edit/main/00_README.md#:~:text=01_yolov8_training.py-,02_yolo_detection.py,-Editing%2000_README.md) file includes python code to run the trained model on local device using webcam for live detection.
+//The 01_yolov8_training.py (https://github.com/Tajbir09/Bottle-Detection-YOLOv8/edit/main/00_README.md#:~:text=01_yolov8_training.py) file includes python code for training YOLOv8 on custom data set.
+// 02_data.yaml (https://github.com/Tajbir09/Bottle-Detection-YOLOv8/edit/main/00_README.md#:~:text=01_yolov8_training.py-,02_data.yaml,-03_yolo_detection.py) is the trained bottle detection YOLOv8 model. 
+
+//The 02_yolo_detection.py (https://github.com/Tajbir09/Bottle-Detection-YOLOv8/edit/main/00_README.md#:~:text=01_yolov8_training.py-,02_yolo_detection.py,-Editing%2000_README.md) file includes python code to run the trained model on local device using webcam for live detection.
