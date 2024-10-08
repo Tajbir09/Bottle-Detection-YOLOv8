@@ -38,7 +38,7 @@ from IPython.display import display, Image
 
 """Uploding custom database from Robo-flow"""
 
-# Commented out IPython magic to ensure Python compatibility.
+
 !mkdir {HOME}/datasets
 # %cd {HOME}/datasets
 
@@ -52,10 +52,11 @@ dataset = version.download("yolov8")
 
 """Training"""
 
-# Commented out IPython magic to ensure Python compatibility.
+
 # %cd {HOME}
 
 !yolo task=detect mode=train model=yolov8s.pt data={dataset.location}/data.yaml epochs=50 imgsz=800 plots=True
+
 
 """Downloadig trained model to local device."""
 
